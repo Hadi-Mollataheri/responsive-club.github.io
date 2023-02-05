@@ -1,0 +1,22 @@
+/* || Reset user agent stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* || General Styles */
+html {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.concert-font {
+    font-family: 'Concert One', cursive;
+    font-size: 1.25rem;
+    color: rgb(234, 10, 81);
+}
