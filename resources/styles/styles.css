@@ -23,7 +23,8 @@ body {
 }
 
 header {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     vertical-align: baseline;
 }
 
@@ -37,7 +38,7 @@ header p {
 nav {
     float: right;
     width: 40%;
-    margin-top: 1.0625rem;
+    /* margin-top: 1.0625rem; */
 }
 
 nav ul {
@@ -55,27 +56,48 @@ nav a {
     font-weight: bold;
     font-size: 0.75rem;
     border-radius: 0.3125rem;
-    padding: 0.3125rem;
-    background-color: #2AFA8F;
+    padding: 0.3125rem; 
+    background-color: #FF4700;
 }
 
 nav a:link {
-    color: #101682;
+    color: #FFF;
 }
 
 nav a:visited {
-    color: #101682;
+    color: #FFF;
 }
 
 nav a:hover {
-    color: #FA003D;
+    color: #101682;
 }
 
 nav a:active {
     color: #F2E335;
     background-color: #101682;
-    transition: color .1s ease-in, background-color .3s ease-in;
+    transition: color .1s ease-in, background-color .1s ease-in;
 }
+
+/* Media query for laptop and bigger screens */
+@media only screen and (min-width: 1024px) {
+    .concert-font {
+        font-size: 3rem;
+    }
+
+    header p {
+        font-size: 2rem;
+    }
+
+    nav {
+        margin-top: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 0.3125rem; 
+    }
+}
+
 
 /* Media query for tablet */
 @media only screen and (max-width: 560px) {
@@ -100,3 +122,20 @@ nav a:active {
 
 
 /* ||  */
+.banner img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.banner-content {
+    text-align: center;
+    margin: 2rem 1rem;
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-content {
+        font-size: 1rem;
+    }
+}
