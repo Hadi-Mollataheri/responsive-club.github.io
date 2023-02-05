@@ -56,7 +56,7 @@ nav a {
     font-weight: bold;
     font-size: 0.75rem;
     border-radius: 0.3125rem;
-    padding: 0.3125rem; 
+    padding: 0.3125rem;
     background-color: #FF4700;
 }
 
@@ -94,7 +94,7 @@ nav a:active {
 
     nav a {
         font-size: 1rem;
-        padding: 0.3125rem; 
+        padding: 0.3125rem;
     }
 }
 
@@ -121,7 +121,7 @@ nav a:active {
 }
 
 
-/* ||  */
+/* || Banner Section  */
 .banner img {
     max-width: 100%;
     height: auto;
@@ -138,4 +138,22 @@ nav a:active {
     .banner-content {
         font-size: 1rem;
     }
+}
+
+/* || Main Content( Learning Section) */
+.main h2 {
+    text-align: center;
+    margin: 10rem 2rem 5rem;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 417px) {
+    .main h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
 }
