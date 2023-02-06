@@ -255,3 +255,8 @@ hr {
 .contact a:visited {
     color: #101682;
 }
+
+.copy-right {
+    font-size: small;
+    text-align: center;
+}
