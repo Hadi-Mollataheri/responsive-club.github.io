@@ -28,6 +28,14 @@ header {
     vertical-align: baseline;
 }
 
+header a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #101682;
+}
+
 header p {
     display: inline-block;
     font-size: 1.25rem;
@@ -145,6 +153,9 @@ nav a:active {
     text-align: center;
     margin: 10rem 2rem 0;
     font-size: 2rem;
+    background-color: #F2E335;
+    box-shadow: 0.375rem 0.375rem .4rem #101682;
+    border-radius: 0.375rem;
 }
 
 @media only screen and (max-width: 417px) {
@@ -175,6 +186,9 @@ nav a:active {
     grid-column-end: 4;
     align-self: end;
     margin-bottom: 1rem;
+    background-color: #2AFA8F;
+    padding: 1rem;
+    border-radius: .75rem;
 }
 
 .main-item img {
